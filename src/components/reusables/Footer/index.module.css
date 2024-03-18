@@ -1,0 +1,52 @@
+.mainCont{
+    background-color: #263238;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Inter, sans-serif;
+    height: 37vh;
+    gap: 130px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+
+}
+
+.socialIcon{
+    display: flex;
+    gap: 20px;
+}
+
+.mainCont > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.inputField{
+    background-color: #716f6f;
+    width: 265px;
+    height: 40px;
+    border-radius: 8px;
+    /*opacity: 20%;*/
+    border: none;
+     font-size: 17px;
+    padding-left: 18px;
+    color: #D9DBE1;
+}
+.inputField::placeholder{
+    color: #D9DBE1;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.mainCont  h1{
+    font-size: 25px;
+}
+

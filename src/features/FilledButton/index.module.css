@@ -1,0 +1,9 @@
+.filledBtn{
+    width: 91px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}

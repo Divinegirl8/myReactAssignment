@@ -1,0 +1,107 @@
+.mainCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Inter, sans-serif;
+    background-color: #F5F7FA;
+}
+
+.lesson{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 70px;
+
+}
+
+.grow{
+color: #717171;
+    margin-top: -50px;
+}
+
+.secondCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.secondCont h1, .writing h1{
+    color:#4D4D4D;
+    font-weight: 600;
+    font-size: 43px;
+    font-family: Inter, sans-serif;
+}
+
+.writing h1{
+    font-size: 40px;
+}
+ .secondCont p , .writing p{
+     margin-top: -10px;
+     color: #717171;
+     font-size: 21px;
+     font-weight: 400;
+     font-family: Inter, sans-serif;
+ }
+
+ .secondCont img{
+     padding-left: 180px;
+
+ }
+
+ .thirdCont{
+     margin-top: 90px;
+ }
+
+.writing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mapping{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    gap: 220px;
+    margin-top: 70px;
+
+}
+
+.mapping h1 , .sec h2{
+    color:#4D4D4D;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: Inter, sans-serif;
+}
+
+.sec h2{
+    font-size: 36px;
+}
+
+.mapping p , .sec p{
+    color: #717171;
+   font-weight: 400;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+.sec p{
+    width: 56%;
+}
+
+
+
+
