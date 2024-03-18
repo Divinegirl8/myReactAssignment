@@ -10,7 +10,7 @@ import fifthIcon from "../../../assets/heroimg/fifth.svg";
 import sixthIcon from  "../../../assets/heroimg/sixth.svg";
 import seventhIcon from "../../../assets/heroimg/seventh.svg"
 import {Content} from "./data";
-import raf from  "../../../assets/heroimg/rafiki.svg"
+
 
 const Hero = () =>{
     return(
@@ -75,15 +75,7 @@ const Hero = () =>{
             </div>
             </div>
 
-            <div className={style.sec}>
-                <img src={raf} alt={""}/>
 
-                <div style={{marginLeft:"80px"}} >
-                   <h2>The unseen of spending three <span style={{display:"block"}}>years at Pixelgrade</span> </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                    <FilledButton2 text={"Learn More"} textColour={"#FFF"} bgColor={"#4CAF4F"} />
-                </div>
-            </div>
 
         </div>
     )

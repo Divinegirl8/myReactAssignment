@@ -1,0 +1,67 @@
+.sec h2{
+    color:#4D4D4D;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: Inter, sans-serif;
+}
+
+.sec p{
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    width: 56%;
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+.headTwo{
+    font-weight: 600;
+    font-size: 39px;
+    font-family: Inter, sans-serif;
+}
+
+.thirdcont h3{
+    font-weight: 700;
+    font-size: 33px;
+    font-family: Inter, sans-serif;
+    color: #4D4D4D;
+}
+
+.thirdcont p{
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    color: #717171;
+}
+.pCont p{
+    margin-top: -19px;
+}
+
+.womanCont{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.womanCont p{
+    width: 50%;
+    color: #717171;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+
+}
+
+.womanCont h2{
+color: #4D4D4D;
+    font-weight: 600;
+    font-size: 38px;
+    font-family: Inter, sans-serif;
+}
