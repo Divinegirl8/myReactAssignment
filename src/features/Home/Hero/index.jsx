@@ -14,32 +14,37 @@ import {Content} from "./data";
 
 const Hero = () =>{
     return(
-        <div className={style.parent} >
+        <div className={style.parent}>
 
+            <div style={{backgroundColor:"#F5F7FA"}}>
+                <img className={style.hero_img2} src={hero} alt={"hero"}/>
 
+            </div>
+            <div className={style.p}>
+                <div className={style.mainCont}>
 
-            <div className={style.mainCont} >
+                    <div className={style.ins}>
+                        <p className={style.lesson}>Lessons and insights <span
+                            style={{display: "block", color: "#4CAF4F", marginTop: "7px"}}>from 8 years</span></p>
+                        <p className={style.grow}>Where to grow your business as a photographer: site or social
+                            media?</p>
+                        <Link to={""} style={{marginTop: "20px"}}>
+                            <FilledButton2 text={"Register"} textColour={"#FFF"} bgColor={"#4CAF4F"}/>
+                        </Link>
+                    </div>
+                    <div>
+                        <img className={style.hero_img} src={hero} alt={"hero"}/>
 
-                <div style={{display:"flex",flexDirection:"column"}}>
-                    <p className={style.lesson} >Lessons and insights <span style={{display: "block",color:"#4CAF4F",marginTop:"7px"}}>from 8 years</span></p>
-                    <p className={style.grow}>Where to grow your business as a photographer: site or social media?</p>
-                   <Link to={""} style={{marginTop: "20px"}}>
-                       <FilledButton2 text={"Register"} textColour={"#FFF"} bgColor={"#4CAF4F"}/>
-                   </Link>
+                    </div>
+
                 </div>
-                <div>
-                    <img className={style.hero_img} src={hero} alt={"hero"}/>
-
-                </div>
-
-
             </div>
 
             <div className={style.secondCont}>
                 <h1>Our Clients</h1>
                 <p>We have been working with some Fortune 500+ clients</p>
 
-                <div style={{marginRight:"120px",marginTop:"30px"}}>
+                <div style={{marginRight: "120px", marginTop: "30px"}}>
                     <img src={firstIcon} alt={"first icon"}/>
                     <img src={secondIcon} alt={"second icon"}/>
                     <img src={thirdIcon} alt={"third icon"}/>
@@ -52,31 +57,31 @@ const Hero = () =>{
 
             <div className={style.thirdCont}>
                 <div className={style.writing}>
-                    <h1>Manage your entire community <span style={{display:"block",textAlign: "center"}}>in a single system</span></h1>
+                    <h1>Manage your entire community <span style={{display: "block", textAlign: "center"}}>in a single system</span>
+                    </h1>
                     <p>Who is Nextcent suitable for?</p>
                 </div>
 
-                <div className={style.mapCont}>
+                <div className={style.mapping}>
 
-                <div  className={style.mapping}>
+                    <div className={style.mapping}>
 
-                {
-                    Content.map((item,index)=>{
-                        return(
-                            <div key={index}>
-                                <div>
-                                    <img src={item.image} alt={""}/>
-                                    <h1>{item.title}</h1>
-                                    <p>{item.description}</p>
-                                </div>
-                            </div>
-                        )
-                    })
-                }
+                        {
+                            Content.map((item, index) => {
+                                return (
+                                    <div key={index}>
+                                        <div>
+                                            <img src={item.image} alt={""}/>
+                                            <h1>{item.title}</h1>
+                                            <p>{item.description}</p>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
-            </div>
-
 
 
         </div>
