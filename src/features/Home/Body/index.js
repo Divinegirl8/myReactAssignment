@@ -11,7 +11,8 @@ import img5 from  "../../../assets/bodyImg/pana.svg"
 const Body = () =>{
     return (
         <div>
-        <div className={style.sec}>
+
+            <div className={style.sec}>
             <img src={pix} alt={""}/>
 
             <div style={{marginLeft: "80px"}}>
@@ -22,24 +23,24 @@ const Body = () =>{
                     quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                 <FilledButton2 text={"Learn More"} textColour={"#FFF"} bgColor={"#4CAF4F"}/>
             </div>
-        </div>
+            </div>
 
-            <div className={style.thirdcont} style={{backgroundColor:"#F5F7FA",marginBottom:"120px",marginTop:"120px"}}>
+            <div className={style.thirdcont}>
 
-                <div style={{display: "flex",flexDirection: "row",justifyContent: "center", marginTop:"120px",gap:"250px",marginLeft:"70px"}}>
+                <div className={style.reInv}>
                     <div style={{marginBottom:"120px",marginTop:"50px"}}>
                         <h2 className={style.headTwo} style={{color:"#4D4D4D"}}>Helping a local <span style={{display:"block", color:"#4CAF4F"}}>business reinvent itself</span></h2>
                         <p>We reached here with our hard work and dedication</p>
                     </div>
 
-                    <div className={style.pCont} style={{display: "flex",flexDirection: "row",justifyContent: "center",marginTop:"30px"}}>
+                    <div className={style.pCont}>
 
                         {/*up div starts */}
 
                         <div style={{marginLeft:"-10px"}}>
 
                             <div>
-                            <div style={{display: "flex", flexDirection: "row", gap: "30px"}}>
+                            <div className={style.im}>
                                 <img src={img1} alt={""}/>
                                 <div>
                                     <h3>2,245,341</h3>
@@ -59,7 +60,7 @@ const Body = () =>{
                         </div>
 
                         {/*down div starts*/}
-                        <div style={{marginLeft:'120px'}}>
+                        <div className={style.dwn}>
 
                             <div style={{display: "flex", flexDirection: "row", gap: "20px",marginRight:"120px"}}>
                                 <img src={img2} alt={""} width={"32%"} height={"32%"} style={{marginTop: "50px"}}/>

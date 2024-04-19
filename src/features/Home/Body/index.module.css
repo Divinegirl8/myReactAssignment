@@ -25,6 +25,11 @@
     font-size: 39px;
     font-family: Inter, sans-serif;
 }
+.thirdcont{
+    background-color:#F5F7FA;
+    margin-bottom:120px;
+    margin-top:120px;
+}
 
 .thirdcont h3{
     font-weight: 700;
@@ -40,6 +45,13 @@
 }
 .pCont p{
     margin-top: -19px;
+}
+
+.pCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:30px;
 }
 
 .womanCont{
@@ -64,4 +76,51 @@ color: #4D4D4D;
     font-weight: 600;
     font-size: 38px;
     font-family: Inter, sans-serif;
+}
+
+.reInv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:120px;
+    gap:250px;
+    margin-left:70px;
+}
+
+.im{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.dwn{
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .sec img{
+        display: none;
+    }
+
+    .sec{
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+
+    .reInv{
+        flex-direction: column;
+        gap:1px;
+        margin-top:10px;
+    }
+
+    .pCont{
+        flex-direction: column;
+    }
+
+    .dwn{
+        margin-left: -10px;
+    }
+
+
 }

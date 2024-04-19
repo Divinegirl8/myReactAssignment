@@ -20,15 +20,17 @@ const Hero = () =>{
 
             <div className={style.mainCont} >
 
-                <div style={{display:"flex",flexDirection:"column" ,marginTop:"290px" ,marginBottom:"290px"}}>
+                <div style={{display:"flex",flexDirection:"column"}}>
                     <p className={style.lesson} >Lessons and insights <span style={{display: "block",color:"#4CAF4F",marginTop:"7px"}}>from 8 years</span></p>
                     <p className={style.grow}>Where to grow your business as a photographer: site or social media?</p>
                    <Link to={""} style={{marginTop: "20px"}}>
                        <FilledButton2 text={"Register"} textColour={"#FFF"} bgColor={"#4CAF4F"}/>
                    </Link>
                 </div>
-                <img src={hero} alt={"hero"} style={{marginTop:"170px",marginBottom:"120px"}}/>
+                <div>
+                    <img className={style.hero_img} src={hero} alt={"hero"}/>
 
+                </div>
 
 
             </div>
@@ -54,7 +56,7 @@ const Hero = () =>{
                     <p>Who is Nextcent suitable for?</p>
                 </div>
 
-                <div style={{marginLeft:"340px"}}>
+                <div className={style.mapCont}>
 
                 <div  className={style.mapping}>
 

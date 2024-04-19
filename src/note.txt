@@ -1,0 +1,18 @@
+const [name, setName] = useState("")
+
+
+onChange = {(e) => setName(e.target.value)}
+
+fomik and yup
+
+const [name,setName] = useState("");
+
+const handleSubmit = (event) =>{
+event.preventDefault();
+alert("submitted")
+
+}
+
+<form onSubmit={handleSubmit}>
+
+</form>

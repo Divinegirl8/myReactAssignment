@@ -4,6 +4,8 @@
     justify-content: space-evenly;
     font-family: Inter, sans-serif;
     background-color: #F5F7FA;
+    margin-top: 250px;
+
 }
 
 .lesson{
@@ -23,7 +25,7 @@ color: #717171;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 250px;
 }
 
 .secondCont h1, .writing h1{
@@ -68,7 +70,7 @@ color: #717171;
     justify-content: center;
     width: 80%;
     text-align: center;
-    gap: 220px;
+    gap: 150px;
     margin-top: 70px;
 
 }
@@ -85,9 +87,29 @@ color: #717171;
    font-weight: 400;
     font-size: 16px;
     font-family: Inter, sans-serif;
+
 }
 
+.mapCont {
+margin-left: 250px;
+}
 
+@media screen and (max-width:760px) {
+   .mainCont{
+       flex-direction: column;
+
+   }
+
+    .mapping{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .mapCont {
+        margin-left: 50px;
+    }
+
+}
 
 
 
